@@ -1,0 +1,914 @@
+<?xml version='1.0' encoding='utf-8'?>
+<openrocket version="1.10" creator="OpenRocket 24.12">
+  <rocket>
+    <name>Rocket</name>
+    <id>18ce410e-8ca2-4300-874b-9a44aaa2ad2f</id>
+    <axialoffset method="absolute">0.0</axialoffset>
+    <position type="absolute">0.0</position>
+    <designtype>original</designtype>
+    <motorconfiguration configid="9cca4d91-407b-4aa9-85b3-e1fcf856f247">
+      <stage number="0" active="true"/>
+      <stage number="1" active="true"/>
+    </motorconfiguration>
+    <motorconfiguration configid="0b363a60-90fe-4b7d-a3a1-357dbea12bfb">
+      <stage number="0" active="true"/>
+      <stage number="1" active="true"/>
+    </motorconfiguration>
+    <motorconfiguration configid="d0919e17-5356-4e32-8c6a-c6d53a44f254">
+      <stage number="0" active="true"/>
+      <stage number="1" active="true"/>
+    </motorconfiguration>
+    <motorconfiguration configid="d274a581-1233-43a5-b60a-decf68afcfaf">
+      <stage number="0" active="true"/>
+      <stage number="1" active="false"/>
+    </motorconfiguration>
+    <motorconfiguration configid="c38c545a-0cb1-43e1-a968-5870de997cbc">
+      <stage number="0" active="true"/>
+      <stage number="1" active="true"/>
+    </motorconfiguration>
+    <motorconfiguration configid="6af27b56-ceb2-4c39-b582-3aec2bb47c1b">
+      <stage number="0" active="true"/>
+      <stage number="1" active="true"/>
+    </motorconfiguration>
+    <motorconfiguration configid="3d3cd7c8-b93b-4a0d-8a61-9ccd4f392a72">
+      <stage number="0" active="true"/>
+      <stage number="1" active="true"/>
+    </motorconfiguration>
+    <motorconfiguration configid="99abe377-7372-4e56-894d-16c9634fada4">
+      <stage number="0" active="true"/>
+      <stage number="1" active="true"/>
+    </motorconfiguration>
+    <motorconfiguration configid="fc63f581-b935-4f37-92b8-ca043b4efbbd">
+      <stage number="0" active="true"/>
+      <stage number="1" active="true"/>
+    </motorconfiguration>
+    <motorconfiguration configid="3b17f658-7d9c-4eb2-9bb2-d44653314a89">
+      <stage number="0" active="true"/>
+      <stage number="1" active="true"/>
+    </motorconfiguration>
+    <motorconfiguration configid="66fbd774-ab7c-43d2-a0b7-daa9e51d4946">
+      <stage number="0" active="true"/>
+      <stage number="1" active="true"/>
+    </motorconfiguration>
+    <motorconfiguration configid="1014a909-3d0c-4726-8b20-e9a1d9a6576d">
+      <stage number="0" active="true"/>
+      <stage number="1" active="true"/>
+    </motorconfiguration>
+    <motorconfiguration configid="e356cd52-7429-487b-b544-1c3c5eaebf53">
+      <stage number="0" active="true"/>
+      <stage number="1" active="true"/>
+    </motorconfiguration>
+    <motorconfiguration configid="9dc708bb-9033-4eab-8c91-68edc729a177">
+      <stage number="0" active="true"/>
+      <stage number="1" active="true"/>
+    </motorconfiguration>
+    <motorconfiguration configid="4319f93f-a0f0-410e-8b7f-8c0a7c93be96" default="true">
+      <stage number="0" active="true"/>
+      <stage number="1" active="true"/>
+    </motorconfiguration>
+    <motorconfiguration configid="f65af8ba-ae90-45b5-9998-d27157bf409f">
+      <stage number="0" active="true"/>
+      <stage number="1" active="true"/>
+    </motorconfiguration>
+    <motorconfiguration configid="f0945998-a858-4e71-8496-775b29778ed5">
+      <stage number="0" active="true"/>
+      <stage number="1" active="true"/>
+    </motorconfiguration>
+    <referencetype>maximum</referencetype>
+
+    <subcomponents>
+      <stage>
+        <name>Sustainer</name>
+        <id>53fab5ef-532d-4027-9031-9f5648e48913</id>
+
+        <subcomponents>
+          <nosecone>
+            <name>Nose Cone</name>
+            <id>858ae949-d930-479a-a2b0-00bd229ef0e2</id>
+            <appearance>
+              <paint red="102" green="0" blue="102" alpha="255"/>
+              <shine>0.3</shine>
+            </appearance>
+            <color red="102" green="0" blue="102" alpha="255"/>
+            <linestyle>solid</linestyle>
+            <finish>smooth</finish>
+            <material type="bulk" density="680.0" group="PaperProducts">Cardboard</material>
+            <length>0.15</length>
+            <thickness>0.0</thickness>
+            <shape>haack</shape>
+            <shapeclipped>false</shapeclipped>
+            <shapeparameter>0.0</shapeparameter>
+            <aftradius>0.0225</aftradius>
+            <aftshoulderradius>0.0</aftshoulderradius>
+            <aftshoulderlength>0.0</aftshoulderlength>
+            <aftshoulderthickness>0.0</aftshoulderthickness>
+            <aftshouldercapped>false</aftshouldercapped>
+            <isflipped>false</isflipped>
+
+            <subcomponents>
+              <masscomponent>
+                <name>Mass Component</name>
+                <id>2344cc2b-1c29-412d-b1ee-249b12aee78c</id>
+                <appearance>
+                  <paint red="102" green="102" blue="102" alpha="255"/>
+                  <shine>0.3</shine>
+                </appearance>
+                <axialoffset method="absolute">0.03</axialoffset>
+                <position type="absolute">0.03</position>
+                <packedlength>0.02</packedlength>
+                <packedradius>0.013999999999999999</packedradius>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <mass>1.0</mass>
+                <masscomponenttype>payload</masscomponenttype>
+              </masscomponent>
+
+              <parachute>
+                <name>Parachute</name>
+                <id>1119fcc1-b191-4fbb-96f4-bcf8aaefc807</id>
+                <axialoffset method="middle">0.01</axialoffset>
+                <position type="middle">0.01</position>
+                <packedlength>0.025</packedlength>
+                <packedradius>0.013999999999999999</packedradius>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <cd>auto</cd>
+                <material type="surface" density="0.067" group="Fabrics">Ripstop nylon</material>
+                <deployevent>apogee</deployevent>
+                <deployaltitude>200.0</deployaltitude>
+                <deploydelay>0.0</deploydelay>
+                <diameter>0.0</diameter>
+                <linecount>9</linecount>
+                <linelength>0.02000000000000001</linelength>
+                <linematerial type="line" density="0.0018" group="ThreadsLines">Elastic cord (round 2 mm, 1/16 in)</linematerial>
+              </parachute>
+            </subcomponents>
+          </nosecone>
+
+          <bodytube>
+            <name>Body Tube</name>
+            <id>12c0bd3c-9f3e-43e0-9346-e23f6de5f361</id>
+            <appearance>
+              <paint red="0" green="102" blue="153" alpha="255"/>
+              <shine>0.3</shine>
+            </appearance>
+            <insideappearance>
+              <edgessameasinside>false</edgessameasinside>
+              <insidesameasoutside>true</insidesameasoutside>
+              <paint red="63" green="215" blue="122" alpha="255"/>
+              <shine>0.3</shine>
+            </insideappearance>
+            <color red="0" green="0" blue="240" alpha="255"/>
+            <linestyle>solid</linestyle>
+            <finish>smooth</finish>
+            <material type="bulk" density="680.0" group="PaperProducts">Cardboard</material>
+            <length>0.17</length>
+            <thickness>0.003</thickness>
+            <radius>auto 0.0225</radius>
+            <motormount>
+              <ignitionevent>ejectioncharge</ignitionevent>
+              <ignitiondelay>0.0</ignitiondelay>
+              <overhang>0.0</overhang>
+              <motor configid="3d3cd7c8-b93b-4a0d-8a61-9ccd4f392a72">
+                <type>reload</type>
+                <manufacturer>AeroTech</manufacturer>
+                <digest>587d4db53dadf2c0bcab110537b5bfa6</digest>
+                <designation>H242T</designation>
+                <diameter>0.038</diameter>
+                <length>0.152</length>
+                <delay>0.0</delay>
+              </motor>
+              <ignitionconfiguration configid="3d3cd7c8-b93b-4a0d-8a61-9ccd4f392a72">
+                <ignitionevent>automatic</ignitionevent>
+                <ignitiondelay>0.0</ignitiondelay>
+              </ignitionconfiguration>
+              <motor configid="9dc708bb-9033-4eab-8c91-68edc729a177">
+                <type>reload</type>
+                <manufacturer>Cesaroni Technology</manufacturer>
+                <digest>17c7b84130a5084ca9032954976ab3fb</digest>
+                <designation>247H143-13A</designation>
+                <diameter>0.038</diameter>
+                <length>0.185</length>
+                <delay>4.0</delay>
+              </motor>
+              <ignitionconfiguration configid="9dc708bb-9033-4eab-8c91-68edc729a177">
+                <ignitionevent>ejectioncharge</ignitionevent>
+                <ignitiondelay>0.0</ignitiondelay>
+              </ignitionconfiguration>
+              <motor configid="4319f93f-a0f0-410e-8b7f-8c0a7c93be96">
+                <type>reload</type>
+                <manufacturer>AeroTech</manufacturer>
+                <digest>303de1e7e61026321d23fea6b6815a25</digest>
+                <designation>H73J</designation>
+                <diameter>0.038</diameter>
+                <length>0.152</length>
+                <delay>6.0</delay>
+              </motor>
+              <ignitionconfiguration configid="4319f93f-a0f0-410e-8b7f-8c0a7c93be96">
+                <ignitionevent>automatic</ignitionevent>
+                <ignitiondelay>0.0</ignitiondelay>
+              </ignitionconfiguration>
+            </motormount>
+
+            <subcomponents>
+              <parachute>
+                <name>Parachute</name>
+                <id>a3fc328d-b29a-4bff-9aba-9905e8179d95</id>
+                <axialoffset method="top">0.009000000000000001</axialoffset>
+                <position type="top">0.009000000000000001</position>
+                <packedlength>0.05</packedlength>
+                <packedradius>0.0125</packedradius>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <cd>auto</cd>
+                <material type="surface" density="0.067" group="Fabrics">Ripstop nylon</material>
+                <deployevent>apogee</deployevent>
+                <deployaltitude>1000.0</deployaltitude>
+                <deploydelay>0.0</deploydelay>
+                <diameter>1.5</diameter>
+                <linecount>11</linecount>
+                <linelength>0.19</linelength>
+                <linematerial type="line" density="0.0035" group="ThreadsLines">Braided nylon (3 mm, 1/8 in)</linematerial>
+              </parachute>
+
+              <innertube>
+                <name>Inner Tube</name>
+                <id>60fc70a4-ec09-4370-acc5-480fb4476fa6</id>
+                <axialoffset method="bottom">0.0</axialoffset>
+                <position type="bottom">0.0</position>
+                <material type="bulk" density="680.0" group="PaperProducts">Cardboard</material>
+                <length>0.06</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>0.005</outerradius>
+                <thickness>0.0</thickness>
+                <clusterconfiguration>single</clusterconfiguration>
+                <clusterscale>1.0</clusterscale>
+                <clusterrotation>0.0</clusterrotation>
+              </innertube>
+            </subcomponents>
+          </bodytube>
+
+          <transition>
+            <name>Transition</name>
+            <id>8bd7ecb1-2574-43d4-baef-709c5a5f5391</id>
+            <appearance>
+              <paint red="204" green="204" blue="204" alpha="255"/>
+              <shine>0.3</shine>
+            </appearance>
+            <finish>smooth</finish>
+            <material type="bulk" density="680.0" group="PaperProducts">Cardboard</material>
+            <length>0.01</length>
+            <thickness>filled</thickness>
+            <shape>conical</shape>
+            <foreradius>auto 0.0225</foreradius>
+            <aftradius>auto 0.025</aftradius>
+            <foreshoulderradius>0.0</foreshoulderradius>
+            <foreshoulderlength>0.0</foreshoulderlength>
+            <foreshoulderthickness>0.0</foreshoulderthickness>
+            <foreshouldercapped>false</foreshouldercapped>
+            <aftshoulderradius>0.0</aftshoulderradius>
+            <aftshoulderlength>0.0</aftshoulderlength>
+            <aftshoulderthickness>0.0</aftshoulderthickness>
+            <aftshouldercapped>false</aftshouldercapped>
+          </transition>
+        </subcomponents>
+      </stage>
+
+      <stage>
+        <name>Stage</name>
+        <id>356d0f0d-bb31-4256-a156-381e6356ebfd</id>
+        <separationevent>ejection</separationevent>
+        <separationaltitude>200.0</separationaltitude>
+        <separationdelay>0.0</separationdelay>
+
+        <subcomponents>
+          <bodytube>
+            <name>Body Tube</name>
+            <id>00f02794-521f-4080-8f2f-5edb341d5c0d</id>
+            <appearance>
+              <paint red="0" green="102" blue="153" alpha="255"/>
+              <shine>0.3</shine>
+            </appearance>
+            <finish>smooth</finish>
+            <material type="bulk" density="680.0" group="PaperProducts">Cardboard</material>
+            <length>0.2</length>
+            <thickness>0.002</thickness>
+            <radius>0.025</radius>
+            <motormount>
+              <ignitionevent>automatic</ignitionevent>
+              <ignitiondelay>0.0</ignitiondelay>
+              <overhang>0.0</overhang>
+              <motor configid="4319f93f-a0f0-410e-8b7f-8c0a7c93be96">
+                <type>reload</type>
+                <manufacturer>AeroTech</manufacturer>
+                <digest>f9aaf185390175b167963f887b48d0fd</digest>
+                <designation>I218R</designation>
+                <diameter>0.038</diameter>
+                <length>0.203</length>
+                <delay>14.0</delay>
+              </motor>
+              <ignitionconfiguration configid="4319f93f-a0f0-410e-8b7f-8c0a7c93be96">
+                <ignitionevent>automatic</ignitionevent>
+                <ignitiondelay>0.0</ignitiondelay>
+              </ignitionconfiguration>
+            </motormount>
+
+            <subcomponents>
+              <innertube>
+                <name>Inner Tube</name>
+                <id>5a2b8e16-381b-47ff-b534-9cc847fc9dc0</id>
+                <appearance>
+                  <paint red="102" green="0" blue="102" alpha="255"/>
+                  <shine>0.3</shine>
+                </appearance>
+                <axialoffset method="bottom">0.0</axialoffset>
+                <position type="bottom">0.0</position>
+                <material type="bulk" density="680.0" group="PaperProducts">Cardboard</material>
+                <length>0.07</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>0.0095</outerradius>
+                <thickness>5.000000000000004E-4</thickness>
+                <clusterconfiguration>single</clusterconfiguration>
+                <clusterscale>1.0</clusterscale>
+                <clusterrotation>0.0</clusterrotation>
+              </innertube>
+
+              <freeformfinset>
+                <name>Freeform Fin Set</name>
+                <id>d808226a-6c08-4183-ae36-3ccff57a2219</id>
+                <appearance>
+                  <paint red="0" green="204" blue="204" alpha="255"/>
+                  <shine>0.3</shine>
+                </appearance>
+                <instancecount>4</instancecount>
+                <fincount>4</fincount>
+                <radiusoffset method="surface">0.0</radiusoffset>
+                <angleoffset method="relative">95.0</angleoffset>
+                <rotation>95.0</rotation>
+                <axialoffset method="bottom">0.0</axialoffset>
+                <position type="bottom">0.0</position>
+                <finish>smooth</finish>
+                <material type="bulk" density="680.0" group="PaperProducts">Cardboard</material>
+                <thickness>0.0</thickness>
+                <crosssection>square</crosssection>
+                <cant>-1.0</cant>
+                <filletradius>0.0</filletradius>
+                <filletmaterial type="bulk" density="680.0" group="PaperProducts">Cardboard</filletmaterial>
+                <finpoints>
+                  <point x="0.0" y="-3.8076210902189545E-6"/>
+                  <point x="0.015" y="0.008"/>
+                  <point x="0.065" y="0.008"/>
+                  <point x="0.04999999999999999" y="-3.8076210902189545E-6"/>
+                </finpoints>
+              </freeformfinset>
+            </subcomponents>
+          </bodytube>
+        </subcomponents>
+      </stage>
+    </subcomponents>
+  </rocket>
+
+  <simulations>
+    <simulation status="notsimulated">
+      <name>Simulation 1</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>4319f93f-a0f0-410e-8b7f-8c0a7c93be96</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchintowind>true</launchintowind>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>270.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <winddirection>4.71238898038469</winddirection>
+        <wind model="average">
+          <speed>2.0</speed>
+          <direction>4.71238898038469</direction>
+          <standarddeviation>0.2</standarddeviation>
+        </wind>
+        <wind model="multilevel" altituderef="agl">
+          <windlevel altitude="0.0" speed="10.0" direction="1.5707963267948966" standarddeviation="1.0"/>
+        </wind>
+        <windmodeltype>Average</windmodeltype>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="extendedisa">
+          <basetemperature>700.0</basetemperature>
+          <basepressure>75000.0</basepressure>
+        </atmosphere>
+        <timestep>0.05</timestep>
+        <maxtime>1200.0</maxtime>
+      </conditions>
+      <extension extensionid="com.mehul.openrocket.planetary.environment:custom">
+        <entry key="providerId" type="string">com.mehul.openrocket.planetary.environment:custom</entry>
+        <entry key="planetId" type="string">mustafar</entry>
+        <entry key="planetName" type="string">Mustafar</entry>
+        <entry key="gravity" type="number">6.5</entry>
+        <entry key="earthWgs" type="boolean">false</entry>
+      </extension>
+      <flightdata maxaltitude="4051.634" maxvelocity="173.696" maxacceleration="145.476" maxmach="0.324" timetoapogee="42.466" flighttime="758.261" groundhitvelocity="6.044" launchrodvelocity="17.211" deploymentvelocity="9.565" optimumdelay="24.028">
+        <warning type="Other">
+          <id>0bc988ce-b5cc-44f8-80a8-2669fba5ec55</id>
+          <description>Open forward airframe (diameter &gt; 0)</description>
+          <priority>LOW</priority>
+          <source>00f02794-521f-4080-8f2f-5edb341d5c0d</source>
+          Open forward airframe (diameter &gt; 0):  &quot;Body Tube&quot;
+        </warning>
+      </flightdata>
+    </simulation>
+
+    <simulation status="notsimulated">
+      <name>Simulation 2</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>c38c545a-0cb1-43e1-a968-5870de997cbc</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchintowind>true</launchintowind>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>90.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <winddirection>1.5707963267948966</winddirection>
+        <wind model="average">
+          <speed>2.0</speed>
+          <direction>1.5707963267948966</direction>
+          <standarddeviation>0.2</standarddeviation>
+        </wind>
+        <wind model="multilevel" altituderef="msl">
+          <windlevel altitude="0.0" speed="2.0" direction="1.5707963267948966" standarddeviation="0.2"/>
+        </wind>
+        <windmodeltype>Average</windmodeltype>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="extendedisa">
+          <basetemperature>700.0</basetemperature>
+          <basepressure>75000.0</basepressure>
+        </atmosphere>
+        <timestep>0.05</timestep>
+        <maxtime>1200.0</maxtime>
+      </conditions>
+      <flightdata maxaltitude="3631.444" maxvelocity="354.587" maxacceleration="88.253" maxmach="0.649" timetoapogee="23.793" flighttime="60.3" groundhitvelocity="134.687" launchrodvelocity="11.919" optimumdelay="15.852">
+      </flightdata>
+    </simulation>
+
+    <simulation status="notsimulated">
+      <name>Simulation 3</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>6af27b56-ceb2-4c39-b582-3aec2bb47c1b</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchintowind>true</launchintowind>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>90.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <winddirection>1.5707963267948966</winddirection>
+        <wind model="average">
+          <speed>2.0</speed>
+          <direction>1.5707963267948966</direction>
+          <standarddeviation>0.2</standarddeviation>
+        </wind>
+        <wind model="multilevel" altituderef="msl">
+          <windlevel altitude="0.0" speed="2.0" direction="1.5707963267948966" standarddeviation="0.2"/>
+        </wind>
+        <windmodeltype>Average</windmodeltype>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="extendedisa">
+          <basetemperature>700.0</basetemperature>
+          <basepressure>75000.0</basepressure>
+        </atmosphere>
+        <timestep>0.05</timestep>
+        <maxtime>1200.0</maxtime>
+      </conditions>
+      <flightdata maxaltitude="3632.676" maxvelocity="354.587" maxacceleration="88.239" maxmach="0.649" timetoapogee="23.814" flighttime="60.269" groundhitvelocity="134.68" launchrodvelocity="11.919" optimumdelay="15.873">
+      </flightdata>
+    </simulation>
+
+    <simulation status="notsimulated">
+      <name>Simulation 5</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>99abe377-7372-4e56-894d-16c9634fada4</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchintowind>true</launchintowind>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>90.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <winddirection>1.5707963267948966</winddirection>
+        <wind model="average">
+          <speed>2.0</speed>
+          <direction>1.5707963267948966</direction>
+          <standarddeviation>0.2</standarddeviation>
+        </wind>
+        <wind model="multilevel" altituderef="msl">
+          <windlevel altitude="0.0" speed="2.0" direction="1.5707963267948966" standarddeviation="0.2"/>
+        </wind>
+        <windmodeltype>Average</windmodeltype>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="extendedisa">
+          <basetemperature>700.0</basetemperature>
+          <basepressure>75000.0</basepressure>
+        </atmosphere>
+        <timestep>0.05</timestep>
+        <maxtime>1200.0</maxtime>
+      </conditions>
+      <flightdata maxaltitude="2012.163" maxvelocity="180.571" maxacceleration="33.456" maxmach="0.318" timetoapogee="22.791" flighttime="44.457" groundhitvelocity="167.541" launchrodvelocity="7.464" optimumdelay="14.85">
+      </flightdata>
+    </simulation>
+
+    <simulation status="notsimulated">
+      <name>Simulation 6</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>fc63f581-b935-4f37-92b8-ca043b4efbbd</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchintowind>true</launchintowind>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>90.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <winddirection>1.5707963267948966</winddirection>
+        <wind model="average">
+          <speed>2.0</speed>
+          <direction>1.5707963267948966</direction>
+          <standarddeviation>0.2</standarddeviation>
+        </wind>
+        <wind model="multilevel" altituderef="msl">
+          <windlevel altitude="0.0" speed="2.0" direction="1.5707963267948966" standarddeviation="0.2"/>
+        </wind>
+        <windmodeltype>Average</windmodeltype>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="extendedisa">
+          <basetemperature>700.0</basetemperature>
+          <basepressure>75000.0</basepressure>
+        </atmosphere>
+        <timestep>0.05</timestep>
+        <maxtime>1200.0</maxtime>
+      </conditions>
+      <flightdata maxaltitude="3620.298" maxvelocity="336.215" maxacceleration="76.367" maxmach="0.611" timetoapogee="24.808" flighttime="381.738" groundhitvelocity="10.434" launchrodvelocity="11.491" deploymentvelocity="11.16" optimumdelay="16.917">
+      </flightdata>
+    </simulation>
+
+    <simulation status="notsimulated">
+      <name>Simulation 7</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>3b17f658-7d9c-4eb2-9bb2-d44653314a89</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchintowind>true</launchintowind>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>90.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <winddirection>1.5707963267948966</winddirection>
+        <wind model="average">
+          <speed>2.0</speed>
+          <direction>1.5707963267948966</direction>
+          <standarddeviation>0.2</standarddeviation>
+        </wind>
+        <wind model="multilevel" altituderef="msl">
+          <windlevel altitude="0.0" speed="2.0" direction="1.5707963267948966" standarddeviation="0.2"/>
+        </wind>
+        <windmodeltype>Average</windmodeltype>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="extendedisa">
+          <basetemperature>700.0</basetemperature>
+          <basepressure>75000.0</basepressure>
+        </atmosphere>
+        <timestep>0.05</timestep>
+        <maxtime>1200.0</maxtime>
+      </conditions>
+    </simulation>
+
+    <simulation status="notsimulated">
+      <name>Simulation 8</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>66fbd774-ab7c-43d2-a0b7-daa9e51d4946</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchintowind>true</launchintowind>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>90.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <winddirection>1.5707963267948966</winddirection>
+        <wind model="average">
+          <speed>2.0</speed>
+          <direction>1.5707963267948966</direction>
+          <standarddeviation>0.2</standarddeviation>
+        </wind>
+        <wind model="multilevel" altituderef="msl">
+          <windlevel altitude="0.0" speed="2.0" direction="1.5707963267948966" standarddeviation="0.2"/>
+        </wind>
+        <windmodeltype>Average</windmodeltype>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="extendedisa">
+          <basetemperature>700.0</basetemperature>
+          <basepressure>75000.0</basepressure>
+        </atmosphere>
+        <timestep>0.05</timestep>
+        <maxtime>1200.0</maxtime>
+      </conditions>
+      <flightdata maxaltitude="209.961" maxvelocity="63.797" maxacceleration="109.663" maxmach="0.108" timetoapogee="6.715" flighttime="13.577" groundhitvelocity="59.16" launchrodvelocity="15.048" optimumdelay="5.816">
+        <warning type="Other">
+          <id>0bc988ce-b5cc-44f8-80a8-2669fba5ec55</id>
+          <description>Open forward airframe (diameter &gt; 0)</description>
+          <priority>LOW</priority>
+          <source>00000000-0000-0000-0000-000000000000</source>
+          Open forward airframe (diameter &gt; 0):  &quot;Body Tube&quot;
+        </warning>
+      </flightdata>
+    </simulation>
+
+    <simulation status="notsimulated">
+      <name>Simulation 9</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>1014a909-3d0c-4726-8b20-e9a1d9a6576d</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchintowind>true</launchintowind>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>90.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <winddirection>1.5707963267948966</winddirection>
+        <wind model="average">
+          <speed>2.0</speed>
+          <direction>1.5707963267948966</direction>
+          <standarddeviation>0.2</standarddeviation>
+        </wind>
+        <wind model="multilevel" altituderef="msl">
+          <windlevel altitude="0.0" speed="2.0" direction="1.5707963267948966" standarddeviation="0.2"/>
+        </wind>
+        <windmodeltype>Average</windmodeltype>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="extendedisa">
+          <basetemperature>700.0</basetemperature>
+          <basepressure>75000.0</basepressure>
+        </atmosphere>
+        <timestep>0.05</timestep>
+        <maxtime>1200.0</maxtime>
+      </conditions>
+      <flightdata maxaltitude="8.111" maxvelocity="10.849" maxacceleration="17.306" maxmach="0.019" timetoapogee="1.69" flighttime="3.06" groundhitvelocity="10.849" launchrodvelocity="5.451" deploymentvelocity="0.421" optimumdelay="0.8">
+      </flightdata>
+    </simulation>
+
+    <simulation status="notsimulated">
+      <name>Simulation 10</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>e356cd52-7429-487b-b544-1c3c5eaebf53</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchintowind>true</launchintowind>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>90.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <winddirection>1.5707963267948966</winddirection>
+        <wind model="average">
+          <speed>2.0</speed>
+          <direction>1.5707963267948966</direction>
+          <standarddeviation>0.2</standarddeviation>
+        </wind>
+        <wind model="multilevel" altituderef="msl">
+          <windlevel altitude="0.0" speed="2.0" direction="1.5707963267948966" standarddeviation="0.2"/>
+        </wind>
+        <windmodeltype>Average</windmodeltype>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="extendedisa">
+          <basetemperature>700.0</basetemperature>
+          <basepressure>75000.0</basepressure>
+        </atmosphere>
+        <timestep>0.05</timestep>
+        <maxtime>1200.0</maxtime>
+      </conditions>
+      <flightdata maxaltitude="1911.07" maxvelocity="173.35" maxacceleration="31.959" maxmach="0.304" timetoapogee="22.442" flighttime="142.892" groundhitvelocity="16.281" launchrodvelocity="7.113" deploymentvelocity="32.74" optimumdelay="14.501">
+        <warning type="HighSpeedDeployment">
+          <id>60db25fd-c83c-478d-a2a7-69a7b2c335bb</id>
+          <description>Recovery device deployment at high speed (32.7 m/s)</description>
+          <priority>NORMAL</priority>
+          <source>1119fcc1-b191-4fbb-96f4-bcf8aaefc807</source>
+          <parameter>32.73574556025491</parameter>
+          Recovery device deployment at high speed (32.7 m/s):  &quot;Parachute&quot;
+        </warning>
+        <warning type="HighSpeedDeployment">
+          <id>b6efa481-2f72-4779-a0e9-2f38d3d5d59d</id>
+          <description>Recovery device deployment at high speed (32.7 m/s)</description>
+          <priority>NORMAL</priority>
+          <source>a3fc328d-b29a-4bff-9aba-9905e8179d95</source>
+          <parameter>32.73574556025491</parameter>
+          Recovery device deployment at high speed (32.7 m/s):  &quot;Parachute&quot;
+        </warning>
+      </flightdata>
+    </simulation>
+
+    <simulation status="notsimulated">
+      <name>Simulation 11</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>9dc708bb-9033-4eab-8c91-68edc729a177</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchintowind>true</launchintowind>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>90.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <winddirection>1.5707963267948966</winddirection>
+        <wind model="average">
+          <speed>2.0</speed>
+          <direction>1.5707963267948966</direction>
+          <standarddeviation>0.2</standarddeviation>
+        </wind>
+        <wind model="multilevel" altituderef="msl">
+          <windlevel altitude="0.0" speed="2.0" direction="1.5707963267948966" standarddeviation="0.2"/>
+        </wind>
+        <windmodeltype>Average</windmodeltype>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="extendedisa">
+          <basetemperature>700.0</basetemperature>
+          <basepressure>75000.0</basepressure>
+        </atmosphere>
+        <timestep>0.05</timestep>
+        <maxtime>1200.0</maxtime>
+      </conditions>
+      <flightdata maxaltitude="0" maxvelocity="0" maxacceleration="0" maxmach="0.004" timetoapogee="0" flighttime="0.003">
+      </flightdata>
+    </simulation>
+
+    <simulation status="notsimulated">
+      <name>Simulation 12</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>4319f93f-a0f0-410e-8b7f-8c0a7c93be96</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchintowind>true</launchintowind>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>90.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <winddirection>1.5707963267948966</winddirection>
+        <wind model="average">
+          <speed>2.0</speed>
+          <direction>1.5707963267948966</direction>
+          <standarddeviation>0.2</standarddeviation>
+        </wind>
+        <wind model="multilevel" altituderef="msl">
+          <windlevel altitude="0.0" speed="2.0" direction="1.5707963267948966" standarddeviation="0.2"/>
+        </wind>
+        <windmodeltype>Average</windmodeltype>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="extendedisa">
+          <basetemperature>700.0</basetemperature>
+          <basepressure>75000.0</basepressure>
+        </atmosphere>
+        <timestep>0.05</timestep>
+        <maxtime>1200.0</maxtime>
+      </conditions>
+      <flightdata maxaltitude="1173.911" maxvelocity="155.112" maxacceleration="137.28" maxmach="0.264" timetoapogee="12.159" flighttime="12.159" launchrodvelocity="16.11">
+      </flightdata>
+    </simulation>
+
+    <simulation status="notsimulated">
+      <name>Simulation 13</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>f65af8ba-ae90-45b5-9998-d27157bf409f</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchintowind>true</launchintowind>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>90.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <winddirection>1.5707963267948966</winddirection>
+        <wind model="average">
+          <speed>2.0</speed>
+          <direction>1.5707963267948966</direction>
+          <standarddeviation>0.2</standarddeviation>
+        </wind>
+        <wind model="multilevel" altituderef="msl">
+          <windlevel altitude="0.0" speed="2.0" direction="1.5707963267948966" standarddeviation="0.2"/>
+        </wind>
+        <windmodeltype>Average</windmodeltype>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="extendedisa">
+          <basetemperature>700.0</basetemperature>
+          <basepressure>75000.0</basepressure>
+        </atmosphere>
+        <timestep>0.05</timestep>
+        <maxtime>1200.0</maxtime>
+      </conditions>
+    </simulation>
+
+    <simulation status="notsimulated">
+      <name>Simulation 14</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>f0945998-a858-4e71-8496-775b29778ed5</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchintowind>true</launchintowind>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>90.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <winddirection>1.5707963267948966</winddirection>
+        <wind model="average">
+          <speed>2.0</speed>
+          <direction>1.5707963267948966</direction>
+          <standarddeviation>0.2</standarddeviation>
+        </wind>
+        <wind model="multilevel" altituderef="msl">
+          <windlevel altitude="0.0" speed="2.0" direction="1.5707963267948966" standarddeviation="0.2"/>
+        </wind>
+        <windmodeltype>Average</windmodeltype>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="extendedisa">
+          <basetemperature>700.0</basetemperature>
+          <basepressure>75000.0</basepressure>
+        </atmosphere>
+        <timestep>0.05</timestep>
+        <maxtime>1200.0</maxtime>
+      </conditions>
+    </simulation>
+  </simulations>
+  <photostudio>
+    <roll>3.14</roll>
+    <yaw>0.0</yaw>
+    <pitch>0.5585053606381855</pitch>
+    <advance>0.0</advance>
+    <viewAlt>-0.5943312101910827</viewAlt>
+    <viewAz>2.6734841314046007</viewAz>
+    <viewDistance>0.44000000000000017</viewDistance>
+    <fov>1.4</fov>
+    <lightAlt>0.35</lightAlt>
+    <lightAz>-1.0</lightAz>
+    <sunlight red="255" green="255" blue="255" alpha="255"/>
+    <ambiance>0.30000001192092896</ambiance>
+    <skyColor red="55" green="95" blue="155" alpha="255"/>
+    <motionBlurred>true</motionBlurred>
+    <flame>true</flame>
+    <flameColor red="255" green="100" blue="50" alpha="255"/>
+    <smoke>true</smoke>
+    <smokeColor red="230" green="230" blue="230" alpha="255"/>
+    <sparks>true</sparks>
+    <exhaustScale>4.8</exhaustScale>
+    <flameAspectRatio>2.0</flameAspectRatio>
+    <sparkConcentration>1.0</sparkConcentration>
+    <sparkWeight>1.0</sparkWeight>
+    <sky>info.openrocket.swing.gui.figure3d.photo.sky.builtin.Orbit</sky>
+  </photostudio>
+  <docprefs>
+  </docprefs>
+</openrocket>
